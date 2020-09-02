@@ -45,7 +45,8 @@ table {
 
 *{
     box-sizing:border-box;
-    border:1px solid grey;
+    padding:0;
+    margin:0;
 }
 
 html{
@@ -56,10 +57,7 @@ body{
     font-size:1.6rem;
     line-height:1.5;
     font-family:'Roboto Mono', monospace;
-}
-
-h1{
-    font-family: 'Chelsea Market', cursive;
+    margin:30px;
 }
 
 a{
@@ -68,6 +66,17 @@ a{
 }
 
 /*---Soft Reset End---*/
+
+nav{
+    width:80%;
+    margin:5% auto;
+}
+
+nav button{
+    padding:3%;
+    border-radius:10px;
+    margin:0 5%;
+}
 
 .planVisit{
   background:#FF764E;
@@ -84,15 +93,65 @@ a{
     color:white;
 }
 
+header{
+    max-width:100%;    
+}
+
+header img{
+    width:25%;
+    border-radius:100%;
+    display:inline-block;
+}
+
+h1{
+    font-family:'Chelsea Market', cursive;
+    font-size:4rem;
+    display:inline;
+}
+
+h3{
+    display:inline;
+}
+
+
+
+
 .firstSection{
     color:white;
     background:#DDB9A3;
+    margin:3% 0;
+}
+
+.firstSection p{
+    text-align:center;
+    padding:2%;
+}
+
+
+
+.secondSection{
+    width:30%;
+    margin:5% auto;
+    text-align:center;
+}
+
+.secondSection img{
+    width:50%;
+    
+    padding:10% 0;
 }
 
 span{
     font-weight:bold;
 }
 
+
+
 footer{
     background:#F9E7DC;
+}
+
+footer img{
+    width:100%;
+    height:5%;
 }
